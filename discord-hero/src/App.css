@@ -1,0 +1,135 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.App {
+  background-color: #404EED;
+  min-height: 100vh;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 48px;
+}
+
+.navbar-logo {
+  height: 35px;
+  padding-right: 100px;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+}
+
+.navbar-login {
+  background-color: white;
+  color: #404EED !important;
+  padding: 8px 20px;
+  border-radius: 24px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.navbar-login:hover {
+  background-color: #D9DBFF;
+  text-decoration: none !important;
+}
+
+.navbar-menu-icon {
+  
+  height: 30px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  padding: 80px 48px;
+}
+
+.hero-content {
+  max-width: 560px;
+  text-align: left;
+}
+
+.hero-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 0.9;
+  letter-spacing: -2px;
+  text-transform: uppercase;
+  max-width: 380px;
+  margin-bottom: 24px;
+}
+
+.hero-description {
+  max-width: 500px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.95);
+  margin-bottom: 32px;
+}
+
+
+
+.hero-buttons {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 16px 32px;
+  border-radius: 28px;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn-dark {
+  background-color: #23272A;
+  color: white;
+}
+
+.btn-dark:hover {
+  background-color: #36393F;
+}
+
+.btn-white {
+  background-color: white;
+  color: #23272A;
+}
+
+.btn-white:hover {
+  background-color: #D9DBFF;
+}
+
+.hero-image-wrapper{
+  padding-top: 300px  ;
+}
